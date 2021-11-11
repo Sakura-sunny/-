@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('Shape|Shifter|Type|to start|#rectangle|#countdown 3||');
+       S.UI.simulate('#circle|Hello|王先生|现在是|北京时间|#time|我将用|我的方式|表达对你的|生日祝福！|你期待？|#countdown 5|#show', 3000);
     }
 
     S.Drawing.loop(function () {
